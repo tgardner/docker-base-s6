@@ -1,0 +1,5 @@
+#!/bin/sh
+
+apk add --no-cache "${@}"
+rm "/tmp/"* 2>/dev/null
+rm -rf /var/cache/apk/* 2>/dev/null
